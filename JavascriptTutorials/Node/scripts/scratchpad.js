@@ -15,13 +15,12 @@ var Book = function (name, price) {
         if (val != undefined && val != price)
         {
             //if (Enumerable.From(priceChanging).All("h => h(this, val)"))
-            if (priceChanging.any(p => !p()))
+            if (priceChanging.any(p => !p(this, val)))
             {
                 return price;
             }
             price = val;
-            foreach (var handler in priceChanged)
-                handler(price);
+            priceChanged.forEach(handler => handler(this));
         }
         return price;
 	};
