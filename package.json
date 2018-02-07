@@ -1,0 +1,23 @@
+{
+  "name": "messingaroundwithjs",
+  "version": "1.0.0",
+  "description": "just for learning",
+  "main": "index.js",
+  "dependencies": {
+    "linqjs": "^0.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stueeey/MessingAroundWithJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stueeey/MessingAroundWithJs/issues"
+  },
+  "homepage": "https://github.com/stueeey/MessingAroundWithJs#readme"
+}

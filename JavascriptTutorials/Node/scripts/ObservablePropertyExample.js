@@ -14,7 +14,6 @@ var Book = function (name, price) {
 	this.price = function (val) {
         if (val != undefined && val != price)
         {
-            //if (Enumerable.From(priceChanging).All("h => h(this, val)"))
             if (priceChanging.any(p => !p(this, val)))
             {
                 return price;
