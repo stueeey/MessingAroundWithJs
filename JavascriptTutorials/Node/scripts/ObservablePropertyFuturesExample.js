@@ -7,7 +7,7 @@ var Book = function (_name, _price) {
     
     Object.defineProperties(this,
     {
-        public name:
+        name:
         {
             get: () => { _name },
             set: (val) => 
